@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 351df23c30f7c094194385312c81bbe1, type: 3}
+  m_Name: Mantle_Style_Building
+  m_EditorClassIdentifier: 
+  TopMaterial:
+  - mainMaterial: {fileID: 2100000, guid: 8601b1623aec449aab4bde45af2e9d65, type: 2}
+    secondaryMaterial: {fileID: 0}
+  - mainMaterial: {fileID: 2100000, guid: a10e3c2ecedfd4d2ebf0f4e76af80aa5, type: 2}
+    secondaryMaterial: {fileID: 0}
+  - mainMaterial: {fileID: 2100000, guid: d624cdc191ce547e294d0bccc0f1f2f4, type: 2}
+    secondaryMaterial: {fileID: 0}
+  - mainMaterial: {fileID: 2100000, guid: 094eb9061f0e64307a7d7b4df7f6aad1, type: 2}
+    secondaryMaterial: {fileID: 0}
+  topUvMethod: 1
+  includeSides: 0
+  SideMaterial:
+  - mainMaterial: {fileID: 2100000, guid: 6e64c48980bb840498f16c82e5a2ce06, type: 2}
+    secondaryMaterial: {fileID: 0}
+  - mainMaterial: {fileID: 2100000, guid: 8b86812f999475747a0b4572b52a26db, type: 2}
+    secondaryMaterial: {fileID: 0}
+  - mainMaterial: {fileID: 2100000, guid: 646ae2fa99cdcdb43bc62b9e4eb1eea2, type: 2}
+    secondaryMaterial: {fileID: 0}
+  - mainMaterial: {fileID: 2100000, guid: 41b23ab75c69e4e82a0972b3fbdb0e6a, type: 2}
+    secondaryMaterial: {fileID: 0}
+  sideUvMethod: 1
+  minSideHeight: 3
+  maxSideHeight: 12
+  bypassSmallAreas: 1
+  minAreaToFillSqrMeters: 1100
+  TerrainFill:
+  - prefab: {fileID: 1000013445554376, guid: 3371c55dbdcd3354bbab13f182e0773e, type: 2}
+    proceduralScaling: 0
+    isGeotropic: 0
+    minScale: {x: 0, y: 0, z: 0}
+    maxScale: {x: 0, y: 0, z: 0}
+    numberPerSquare100Meters: 0
+    placementNoiseMeters: 0
+    rotationRandom: 0
+    placedInRows: 0
+    allowOverhang: 0
+  - prefab: {fileID: 1000013821178716, guid: fda8bee4d7fa05a4f89d0cf22cfb7d1f, type: 2}
+    proceduralScaling: 0
+    isGeotropic: 0
+    minScale: {x: 0, y: 0, z: 0}
+    maxScale: {x: 0, y: 0, z: 0}
+    numberPerSquare100Meters: 0
+    placementNoiseMeters: 0
+    rotationRandom: 0
+    placedInRows: 0
+    allowOverhang: 0
+  TerrainEdge: []
+  ignoreRealBuildingHeights: 0
+  groundLevelHeight: 3
+  topLevelHeight: 3
+  GroundLevelCladding:
+  - prefab: {fileID: 115276, guid: 0c092b6dde60d4444b776565d73f03fc, type: 2}
+    spawnChance: 100
+    limitRows: 1
+    maxRowsLimit: 1
+    metersGapAcross: 20
+    metersGapBetweenFloors: 0
+    metersWidthMargin: 0
+    metersBottomMargin: 0
+    metersTopMargin: 0
+    rotationRandom: 0
+  MidSectionCladding:
+  - prefab: {fileID: 1000012072925784, guid: 56dcad45fe0ce154099a7e76cd2a0664, type: 2}
+    spawnChance: 1
+    limitRows: 0
+    maxRowsLimit: 0
+    metersGapAcross: 10
+    metersGapBetweenFloors: 2
+    metersWidthMargin: 0
+    metersBottomMargin: 0
+    metersTopMargin: 2
+    rotationRandom: 0
+  - prefab: {fileID: 1000013210688868, guid: a3d1f6a962da23045968d7cf5fbd1917, type: 2}
+    spawnChance: 2
+    limitRows: 0
+    maxRowsLimit: 0
+    metersGapAcross: 5
+    metersGapBetweenFloors: 6
+    metersWidthMargin: 0
+    metersBottomMargin: 0
+    metersTopMargin: 2
+    rotationRandom: 0
+  TopLevelCladding: []

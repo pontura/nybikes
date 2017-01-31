@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c814a94a29218440c94aba9bced95679, type: 3}
+  m_Name: Mantle Style_Car Park
+  m_EditorClassIdentifier: 
+  TopMaterial:
+  - mainMaterial: {fileID: 2100000, guid: b2e195858fca04147af4475b4a60044a, type: 2}
+    secondaryMaterial: {fileID: 0}
+  topUvMethod: 8
+  SideMaterial:
+  - mainMaterial: {fileID: 2100000, guid: b2e195858fca04147af4475b4a60044a, type: 2}
+    secondaryMaterial: {fileID: 0}
+  sideUvMethod: 1
+  minSideHeight: 0.123
+  maxSideHeight: 0.123
+  bypassSmallAreas: 0
+  minAreaToFillSqrMeters: 0
+  TerrainFill:
+  - prefab: {fileID: 1000010443128182, guid: ed17dd864ad7d41f884015d3e732566b, type: 2}
+    proceduralScaling: 0
+    isGeotropic: 0
+    minScale: {x: 1, y: 1, z: 1}
+    maxScale: {x: 1, y: 1, z: 1}
+    numberPerSquare100Meters: 50
+    placementNoiseMeters: 0
+    rotationRandom: 0
+    placedInRows: 0
+    allowOverhang: 0
+  - prefab: {fileID: 1000013947418324, guid: 8e8c86969082c04409f1814caf302f84, type: 2}
+    proceduralScaling: 0
+    isGeotropic: 0
+    minScale: {x: 1, y: 1, z: 1}
+    maxScale: {x: 1, y: 1, z: 1}
+    numberPerSquare100Meters: 45
+    placementNoiseMeters: 0
+    rotationRandom: 0
+    placedInRows: 0
+    allowOverhang: 0
+  - prefab: {fileID: 1000011900963374, guid: 2c0231df237c51c4fa0b48e24a833c86, type: 2}
+    proceduralScaling: 0
+    isGeotropic: 0
+    minScale: {x: 1, y: 1, z: 1}
+    maxScale: {x: 1, y: 1, z: 1}
+    numberPerSquare100Meters: 0
+    placementNoiseMeters: 0
+    rotationRandom: 1
+    placedInRows: 0
+    allowOverhang: 0
+  TerrainEdge: []

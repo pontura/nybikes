@@ -1,0 +1,175 @@
+
+
+======================================
+Mantle Environment System
+‘Push Button Worlds’
+Release Notes - 1.1.0 - 08-Dec-2016
+======================================
+
+
+Thanks for purchasing Mantle! It does the hard work of creating and decorating 3D environments so you can get on with being creative!
+
+
+See www.mantle.tech for more information, guides, galleries and the forum.
+
+
+
+
+CONTACT & SUPPORT:
+======================================
+Mail: support@mantle.tech
+Twitter: @MantleTech
+Website: www.mantle.tech
+
+
+* Please refer to the user manual for detailed help and guidance:
+http://www.mantle.tech/quickstart/
+
+
+* Questions? Comments? Bugs?
+Please contact us directly or let us know your thoughts on the forum:
+http://www.mantle.tech/forum/
+
+
+
+
+LICENSING:
+======================================
+Mantle is licensed per-seat in accordance with Unity’s EULA. We're stoked that you’ve bought a license for Mantle but it is just for you. To use it with others we please ask that you support us and buy additional licenses per person.
+
+
+
+
+1.1.0
+======================================
+NEW FEATURES:
+======================================
+* Mapbox map service support now implemented
+* Google Protocol buffer tile support added
+* Buildings with concave internal voids implemented for Mapzen vectors
+* Scene Hierarchy reordered into tile parent objects under single Mantle grandparent object
+* Numerous road rendering improvements
+* Bridge and Tunnel ramp value exposed to create sharper or smoother ramps by transport type
+* Landuse rendering improved for high definition or low definition meshes
+* Various render speed optimisations
+* Longest Edge UV option added to material UV option dropdown 
+* Building parts now groupable under parent with shared materials
+* Placed prefab mesh combination option for improved FPS
+* Threading architecture incorporated for rendering across frames
+* Vehicle placement improvements
+* Vehicle colour randomisation option
+* Ability to turn terrain fill and terrain edge on/off per style prefab slot
+
+
+
+
+BUG FIXES:
+======================================
+* Updated Mapzen URL endpoint and parser for new Mapzen 1.0 schema
+* Building z-fighting improvements
+* Numerous road anomalies fixed
+* Fixed bug preventing Unity builds with Mantle components present in scene
+
+
+CHANGES:
+======================================
+* Scene content hierarchy reordered under single Mantle grandparent and tile parents
+
+
+
+
+======================================
+KNOWN ISSUES:
+======================================
+* Placement of prefabs containing LOD components can cause a known Unity bug (group-0x7fff) where the max number of LOD groups is reached. This results in Unity not being able to correctly display mesh LODs correctly in some situations. Please see following link for details:
+   https://issuetracker.unity3d.com/issues/reaching-32k-lodgroup-components-in-a-single-scene-causes-group-0x7fff-errors
+
+* As per 1.0.0
+
+
+
+
+1.0.1
+======================================
+NEW FEATURES:
+======================================
+* [FB-52] Form validation: more feedback where style is required but missing pre-map-load
+* [FB-82} Theme duplication feature implemented (right-click theme)
+* [FB-221] Bridge underside material exposure required
+
+
+
+
+BUG FIXES:
+======================================
+
+
+* [FB-258] Place in Row not spawning any objects in scene
+* [FB-232] Some buildings generate with 0 height
+* [FB-152] Landuse Terrain edge unpredictable
+* [FB-204] Style 'to render' controls - whole dropdown should be clickable - not just the arrow
+* [FB-188] Bridges ramp smoothly on one side and sharp drop on the other
+* [FB-222] Bridge thickness to refer to style side height value
+* [FB-277] Styles with unassigned materials are failing to consistently increment the materials array of generated objects
+* Updated calls to BuildAssetBundles for compatibility with Unity 5.4.x
+
+
+
+
+CHANGES:
+======================================
+* None (with regards to understood behaviour)
+
+
+
+
+======================================
+KNOWN ISSUES:
+======================================
+* As per 1.0.0
+
+
+
+
+
+
+1.0.0
+======================================
+KNOWN ISSUES:
+======================================
+* Transport network prefabs using the Vehicle.cs script WILL clip through each other - there is no collision detection turned on. Mantle’s core purpose is environmental creation and not simulation, this script has been provided as a kickstart. Feel free to use your own or other scripts that use collision detection for extra awesomeness!
+* [FB-253] Edge terrain objects on road bridges are currently placed on the ground below the road.
+* [FB-219] Some buildings that should have internal spaces (concave faces) do not
+* Roads of different class currently don’t join evenly
+* Edge terrain on land use isn’t consistently placed
+* [FB-54] Building sides may show vertex collision where OSM mapping data has multiple buildings in same space.
+* [FB-202] Building cladding objects of different types may be double placed in the same location.
+* [FB-188] Bridge elevations may be inaccurate as height is a combination of user and prediction not drawn from OSM data.
+* [FB-160] Land-use areas may fail to render in rare cases where their mapping metadata is incomplete.
+* [FB-193] Occasionally land-uses may render above ground although they should be underground due to limited processing of metadata. ie: underground train stations.
+* [Investigating] Transport AI may throw an exception due to orphaned transport network nodes.
+* Hitting stop before runtime generation completes may result in objects being instantiated into your scene due to coroutines stopping after main thread. Use the ‘Clear Design Time Objects’ button to remove any residual objects.
+
+
+ 
+NEW FEATURES:
+======================================
+* It’s all new this release baby!
+
+
+
+
+CHANGES:
+======================================
+* None
+
+
+
+
+BUG FIXES:
+======================================
+* None
+
+
+
+

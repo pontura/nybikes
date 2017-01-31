@@ -1,0 +1,76 @@
+Eltnam v1.1.0 (07/12/2016)
+
+==============================================
+Environmental auto generation theme for Mantle
+© Mantle Technologies Limited, 2016 
+www.mantle.tech
+
+Author: Yvonne Jackson
+==============================================
+
+Thanks for downloading Mantle for Unity.
+Installation requires Unity 5.3.1 or Higher.
+
+Please direct any technical support requests to:
+support@mantle.tech
+
+
+Installation:
+=============
+1. Open new project in Unity
+2. In Assets Tab click Import Package and Select Custom Package 
+3. Open the Mantle folder in Project pane
+4. Run Demo scene for a preview (//Mantle/Content/MantleThemes/Eltnam/Demo Scene_Eltnam)
+
+
+Package Content:
+=========================
+Folder Structure:
+ -	Animations
+ -	Mantle Styles
+ -	Materials
+ -	Models
+ -	Prefabs
+ 	Theme File
+ 	Demo Scene
+
+------------
+
+Theme Content Elements:
+
+-	1 Mantle Theme
+-	1 Datasource
+-	1 Demo Scene
+-	21 Mantle Styles
+-	26 Style Materials
+-	1 Shader
+-	41 Textures (13 Normals)
+-	49 Models
+-	46 Prefabs
+-	66 Prefab Materials
+-	1 Animation controller
+-	1 Animation
+
+
+Acknowledgements:
+=================
+
+Author Created Content:
+-----------------------
+
+Textures by Yvonne Jackson, Mantle Technologies Limited
+Building Materials by Yvonne Jackson, Mantle Technologies Limited
+Models by Yvonne Jackson, Mantle Technologies Limited
+
+
+3rd Party Data:
+---------------
+Vector Tile Map Data - MapZen (www.mapzen.com)
+ 
+
+============================================
+We hope you find this theme useful!
+We’re always happy to hear your feedback and keen to see images of your Mantle-generated environments, share them on the forums at: www.mantle.tech
+============================================
+Twitter: @MantleTech
+

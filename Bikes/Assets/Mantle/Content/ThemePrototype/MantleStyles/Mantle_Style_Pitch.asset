@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c814a94a29218440c94aba9bced95679, type: 3}
+  m_Name: Mantle_Style_Pitch
+  m_EditorClassIdentifier: 
+  TopMaterial:
+  - mainMaterial: {fileID: 2100000, guid: dd326d7dc6b3f436d8e71673b2edbf76, type: 2}
+    secondaryMaterial: {fileID: 0}
+  topUvMethod: 8
+  SideMaterial:
+  - mainMaterial: {fileID: 2100000, guid: dd326d7dc6b3f436d8e71673b2edbf76, type: 2}
+    secondaryMaterial: {fileID: 0}
+  sideUvMethod: 1
+  minSideHeight: 0.123
+  maxSideHeight: 0.123
+  bypassSmallAreas: 0
+  minAreaToFillSqrMeters: 0
+  TerrainFill: []
+  TerrainEdge:
+  - prefab: {fileID: 1000012489640122, guid: 59dfb80e999694d4ba3cfa8ed1aafdda, type: 2}
+    proceduralScaling: 0
+    isGeotropic: 0
+    minScale: {x: 1, y: 1, z: 1}
+    maxScale: {x: 1, y: 1, z: 1}
+    onTerrain: 0100000002000000
+    metersGap: 25
+    metersFromEdge: -0.1
+    placementNoiseMeters: 0
+    metersWidthMargin: 1
+    chanceOfSpawn: 100
+    rotationType: 0
+    ignoreLeftSide: 0
+    ignoreRightSide: 0

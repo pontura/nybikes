@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 351df23c30f7c094194385312c81bbe1, type: 3}
+  m_Name: Mantle Building Style Alt
+  m_EditorClassIdentifier: 
+  TopMaterial:
+  - mainMaterial: {fileID: 2100000, guid: 288ac082488e3c04f842afaa6febb1f0, type: 2}
+    secondaryMaterial: {fileID: 0}
+  topUvMethod: 1
+  SideMaterial:
+  - mainMaterial: {fileID: 2100000, guid: f3b1893637b821744a7fc5128f68fafe, type: 2}
+    secondaryMaterial: {fileID: 0}
+  sideUvMethod: 1
+  minSideHeight: 3.9
+  maxSideHeight: 70
+  bypassSmallAreas: 0
+  minAreaToFillSqrMeters: 0
+  TerrainFill:
+  - prefab: {fileID: 1000013997578380, guid: c0b76fee42cdaf34cae033ab5d28db58, type: 2}
+    proceduralScaling: 2
+    isGeotropic: 0
+    minScale: {x: 1, y: 0.5, z: 1}
+    maxScale: {x: 1, y: 0.5, z: 1}
+    numberPerSquare100Meters: 0
+    placementNoiseMeters: 0
+    rotationRandom: 0
+    placedInRows: 0
+    allowOverhang: 0
+  TerrainEdge: []
+  ignoreRealBuildingHeights: 0
+  groundLevelHeight: 3.5
+  topLevelHeight: 2
+  GroundLevelCladding: []
+  MidSectionCladding: []
+  TopLevelCladding: []

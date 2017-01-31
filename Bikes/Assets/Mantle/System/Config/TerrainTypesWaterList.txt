@@ -1,0 +1,17 @@
+default_fallback
+ocean
+riverbank 
+dock
+water
+basin
+reservoir 
+lake
+playa 
+canal
+dam 
+ditch
+drain 
+river
+stream
+swimming_pool
+ferry

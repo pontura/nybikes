@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c814a94a29218440c94aba9bced95679, type: 3}
+  m_Name: Mantle Style_Garden
+  m_EditorClassIdentifier: 
+  TopMaterial:
+  - mainMaterial: {fileID: 2100000, guid: 3942ef878c11ad149a672344831d246d, type: 2}
+    secondaryMaterial: {fileID: 0}
+  topUvMethod: 1
+  SideMaterial:
+  - mainMaterial: {fileID: 2100000, guid: 3942ef878c11ad149a672344831d246d, type: 2}
+    secondaryMaterial: {fileID: 0}
+  sideUvMethod: 1
+  minSideHeight: 0.123
+  maxSideHeight: 0.123
+  bypassSmallAreas: 0
+  minAreaToFillSqrMeters: 0
+  TerrainFill:
+  - prefab: {fileID: 1000012503654254, guid: b450685914a914f10b0a193ba8e4d241, type: 2}
+    proceduralScaling: 0
+    isGeotropic: 0
+    minScale: {x: 0, y: 0, z: 0}
+    maxScale: {x: 0, y: 0, z: 0}
+    numberPerSquare100Meters: 1
+    placementNoiseMeters: 0
+    rotationRandom: 1
+    placedInRows: 0
+    allowOverhang: 0
+  - prefab: {fileID: 1000011900963374, guid: 41e7d4ae7ce83ca4497db66772bc651d, type: 2}
+    proceduralScaling: 0
+    isGeotropic: 0
+    minScale: {x: 0, y: 0, z: 0}
+    maxScale: {x: 0, y: 0, z: 0}
+    numberPerSquare100Meters: 1
+    placementNoiseMeters: 0
+    rotationRandom: 1
+    placedInRows: 0
+    allowOverhang: 0
+  TerrainEdge:
+  - prefab: {fileID: 1000012592500770, guid: c8133541e4b3043d39a7371295f15f64, type: 2}
+    proceduralScaling: 0
+    isGeotropic: 0
+    minScale: {x: 0, y: 0, z: 0}
+    maxScale: {x: 0, y: 0, z: 0}
+    onTerrain: 0100000002000000
+    metersGap: 10
+    metersFromEdge: 0
+    placementNoiseMeters: 0
+    metersWidthMargin: 0
+    chanceOfSpawn: 100
+    rotationType: 0
+    ignoreLeftSide: 0
+    ignoreRightSide: 0

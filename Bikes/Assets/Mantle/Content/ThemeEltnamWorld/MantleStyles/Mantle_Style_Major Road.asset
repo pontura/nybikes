@@ -1,0 +1,194 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4857e7b29464440ca2ba22a395064e4, type: 3}
+  m_Name: Mantle_Style_Major Road
+  m_EditorClassIdentifier: 
+  TopMaterial:
+  - mainMaterial: {fileID: 2100000, guid: d894addfd0fccc84da00c774f1e3efeb, type: 2}
+    secondaryMaterial: {fileID: 0}
+  topUvMethod: 4
+  includeSides: 0
+  SideMaterial:
+  - mainMaterial: {fileID: 2100000, guid: d894addfd0fccc84da00c774f1e3efeb, type: 2}
+    secondaryMaterial: {fileID: 0}
+  sideUvMethod: 1
+  minSideHeight: 0.123
+  maxSideHeight: 0.123
+  imageOverlayMethod: 0
+  bypassSmallAreas: 0
+  minAreaToFillSqrMeters: 0
+  TerrainFill: []
+  TerrainEdge:
+  - Include: 1
+    prefab: {fileID: 194260, guid: e2e94dd3273b34f4a8cbe2d31ce52f14, type: 2}
+    proceduralScaling: 0
+    isGeotropic: 0
+    minScale: {x: 1, y: 1, z: 1}
+    maxScale: {x: 1, y: 1, z: 1}
+    onTerrain: 0100000002000000
+    metersGap: 30
+    metersFromEdge: 0.5
+    placementNoiseMeters: 0
+    metersWidthMargin: 0
+    chanceOfSpawn: 100
+    rotationType: 1
+    ignoreLeftSide: 0
+    ignoreRightSide: 0
+  - Include: 1
+    prefab: {fileID: 180758, guid: dc4201d71bc726c44ad373b9666bb7ff, type: 2}
+    proceduralScaling: 0
+    isGeotropic: 0
+    minScale: {x: 1, y: 1, z: 1}
+    maxScale: {x: 1, y: 1, z: 1}
+    onTerrain: 0100000002000000
+    metersGap: 100
+    metersFromEdge: 1
+    placementNoiseMeters: 0
+    metersWidthMargin: 0
+    chanceOfSpawn: 100
+    rotationType: 2
+    ignoreLeftSide: 0
+    ignoreRightSide: 0
+  - Include: 1
+    prefab: {fileID: 102926, guid: a0d36038de0afca469257f6f67f19741, type: 2}
+    proceduralScaling: 0
+    isGeotropic: 0
+    minScale: {x: 1, y: 1, z: 1}
+    maxScale: {x: 1, y: 1, z: 1}
+    onTerrain: 0100000002000000
+    metersGap: 50
+    metersFromEdge: 0.3
+    placementNoiseMeters: 0
+    metersWidthMargin: 0
+    chanceOfSpawn: 100
+    rotationType: 0
+    ignoreLeftSide: 0
+    ignoreRightSide: 0
+  - Include: 1
+    prefab: {fileID: 142800, guid: 9710d876dc165eb4e8b058cff06cc483, type: 2}
+    proceduralScaling: 0
+    isGeotropic: 0
+    minScale: {x: 1, y: 1, z: 1}
+    maxScale: {x: 1, y: 1, z: 1}
+    onTerrain: 0100000002000000
+    metersGap: 7
+    metersFromEdge: 0.3
+    placementNoiseMeters: 0
+    metersWidthMargin: 0
+    chanceOfSpawn: 100
+    rotationType: 0
+    ignoreLeftSide: 0
+    ignoreRightSide: 0
+  IntersectionMaterial:
+  - mainMaterial: {fileID: 2100000, guid: 31c20028c3cde8547ae8ff4e9226009a, type: 2}
+    secondaryMaterial: {fileID: 2100000, guid: 31c20028c3cde8547ae8ff4e9226009a, type: 2}
+  BridgeMaterial:
+  - mainMaterial: {fileID: 2100000, guid: 31c20028c3cde8547ae8ff4e9226009a, type: 2}
+    secondaryMaterial: {fileID: 2100000, guid: 31c20028c3cde8547ae8ff4e9226009a, type: 2}
+  ignoreTunnels: 1
+  ignoreBridges: 0
+  BridgeRampLength: 20
+  TransportEdging:
+  - Include: 1
+    prefab: {fileID: 1000011850863288, guid: c8f7cbf85b111274fb7059db9ba1c925, type: 2}
+    proceduralScaling: 0
+    isGeotropic: 0
+    minScale: {x: 1, y: 1, z: 1}
+    maxScale: {x: 1, y: 1, z: 1}
+    onTerrain: 0100000002000000
+    metersGap: 1
+    metersFromEdge: -0.06
+    placementNoiseMeters: 0
+    metersWidthMargin: 0
+    chanceOfSpawn: 100
+    rotationType: 1
+    ignoreLeftSide: 0
+    ignoreRightSide: 0
+    ignoreTunnels: 1
+    ignoreBridges: 0
+    ignoreLinks: 0
+    ignoreHighways: 0
+  - Include: 1
+    prefab: {fileID: 1000013811648622, guid: 6f6186b04f7d5e743bb4b0cf59d13456, type: 2}
+    proceduralScaling: 0
+    isGeotropic: 0
+    minScale: {x: 1, y: 1, z: 1}
+    maxScale: {x: 1, y: 1, z: 1}
+    onTerrain: 0100000002000000
+    metersGap: 30
+    metersFromEdge: 1
+    placementNoiseMeters: 0
+    metersWidthMargin: 0
+    chanceOfSpawn: 100
+    rotationType: 1
+    ignoreLeftSide: 0
+    ignoreRightSide: 0
+    ignoreTunnels: 1
+    ignoreBridges: 0
+    ignoreLinks: 0
+    ignoreHighways: 0
+  - Include: 1
+    prefab: {fileID: 1000013044403128, guid: a6593bad9d5bec847ae09a1abfbe3a05, type: 2}
+    proceduralScaling: 2
+    isGeotropic: 0
+    minScale: {x: 1, y: 1, z: 1}
+    maxScale: {x: 1, y: 2, z: 1}
+    onTerrain: 0100000002000000
+    metersGap: 100
+    metersFromEdge: 1.2
+    placementNoiseMeters: 0
+    metersWidthMargin: 0
+    chanceOfSpawn: 100
+    rotationType: 2
+    ignoreLeftSide: 0
+    ignoreRightSide: 0
+    ignoreTunnels: 1
+    ignoreBridges: 0
+    ignoreLinks: 0
+    ignoreHighways: 0
+  - Include: 1
+    prefab: {fileID: 1000014038414148, guid: da70360c49808f14db4d18c3c5df0c20, type: 2}
+    proceduralScaling: 0
+    isGeotropic: 0
+    minScale: {x: 1, y: 1, z: 1}
+    maxScale: {x: 1, y: 1, z: 1}
+    onTerrain: 0100000002000000
+    metersGap: 50
+    metersFromEdge: 0.5
+    placementNoiseMeters: 0
+    metersWidthMargin: 0
+    chanceOfSpawn: 100
+    rotationType: 0
+    ignoreLeftSide: 0
+    ignoreRightSide: 0
+    ignoreTunnels: 1
+    ignoreBridges: 0
+    ignoreLinks: 0
+    ignoreHighways: 0
+  - Include: 1
+    prefab: {fileID: 1000011692994566, guid: 28d78512d08c9f44196e62c5f24d0151, type: 2}
+    proceduralScaling: 0
+    isGeotropic: 0
+    minScale: {x: 1, y: 1, z: 1}
+    maxScale: {x: 1, y: 1, z: 1}
+    onTerrain: 0100000002000000
+    metersGap: 7
+    metersFromEdge: 0.5
+    placementNoiseMeters: 0
+    metersWidthMargin: 0
+    chanceOfSpawn: 100
+    rotationType: 0
+    ignoreLeftSide: 0
+    ignoreRightSide: 0
+    ignoreTunnels: 1
+    ignoreBridges: 0
+    ignoreLinks: 0
+    ignoreHighways: 0

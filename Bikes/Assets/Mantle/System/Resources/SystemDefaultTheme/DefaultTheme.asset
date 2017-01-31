@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a52bd1812b1ab49548121b193299409d, type: 3}
+  m_Name: DefaultTheme
+  m_EditorClassIdentifier: 
+  ThemeName: Vanilla
+  IncludeTerrainFill: 1
+  IncludeTerrainEdge: 1
+  IncludeBuildingCladding: 1
+  EarthTerrain:
+    terrainTypeCode: 1
+    placedFillAssetCount: 0
+    placedEdgeAssetCount: 0
+    placedCladdingAssetCount: 0
+  EarthToRender:
+  - SubtypeName: default_fallback
+    _subtypeNameDropdownIndex: 0
+    style: {fileID: 11400000, guid: a38db1f30a21b4563b303e7369817bd9, type: 2}
+    Include: 1
+    subtypeOrder: 0
+    validKnownTerrainTypes: []
+  LanduseTerrain:
+    terrainTypeCode: 2
+    placedFillAssetCount: 0
+    placedEdgeAssetCount: 0
+    placedCladdingAssetCount: 0
+  LandUseToRender:
+  - SubtypeName: default_fallback
+    _subtypeNameDropdownIndex: 0
+    style: {fileID: 11400000, guid: a38db1f30a21b4563b303e7369817bd9, type: 2}
+    Include: 1
+    subtypeOrder: 3
+    validKnownTerrainTypes: []
+  WaterTerrain:
+    terrainTypeCode: 3
+    placedFillAssetCount: 0
+    placedEdgeAssetCount: 0
+    placedCladdingAssetCount: 0
+  WaterToRender:
+  - SubtypeName: default_fallback
+    _subtypeNameDropdownIndex: 0
+    style: {fileID: 11400000, guid: a38db1f30a21b4563b303e7369817bd9, type: 2}
+    Include: 1
+    subtypeOrder: 0
+    validKnownTerrainTypes: []
+  BuildingTerrain:
+    terrainTypeCode: 5
+    placedFillAssetCount: 0
+    placedEdgeAssetCount: 0
+    placedCladdingAssetCount: 0
+    IncludeBoundingBoxes: 1
+    filterBuildingsByArea: 0
+    minAreaSqrMeters: 0
+    maxAreaSqrMeters: 0
+  BuildingsToRender:
+  - SubtypeName: default_fallback
+    _subtypeNameDropdownIndex: 1
+    style: {fileID: 11400000, guid: 47d7ac4535c38491a8b70c317b95c455, type: 2}
+    Include: 1
+    subtypeOrder: 0
+    validKnownTerrainTypes: []
+  RoadTerrain:
+    terrainTypeCode: 4
+    placedFillAssetCount: 0
+    placedEdgeAssetCount: 0
+    placedCladdingAssetCount: 0
+    renderMethod: 0
+    baseAltitude: 0
+    bridgeElevationDefault: 4
+    tunnelDepthDefault: 4
+    enableRoadClipping: 1
+  TransportToRender:
+  - SubtypeName: default_fallback
+    _subtypeNameDropdownIndex: 0
+    style: {fileID: 11400000, guid: f23a199b2c0cf4c32974bd5413b370aa, type: 2}
+    Include: 1
+    subtypeOrder: 0
+    validKnownTerrainTypes: []
+    roadWidth: 1

@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4857e7b29464440ca2ba22a395064e4, type: 3}
+  m_Name: Mantle Style_Minor Road
+  m_EditorClassIdentifier: 
+  TopMaterial:
+  - mainMaterial: {fileID: 2100000, guid: 0c2c7f6eda3304d469505c9a62a807c0, type: 2}
+    secondaryMaterial: {fileID: 2100000, guid: 0c2c7f6eda3304d469505c9a62a807c0, type: 2}
+  topUvMethod: 1
+  SideMaterial: []
+  sideUvMethod: 1
+  minSideHeight: 0.123
+  maxSideHeight: 0.123
+  bypassSmallAreas: 0
+  minAreaToFillSqrMeters: 0
+  TerrainFill: []
+  TerrainEdge: []
+  IntersectionMaterial:
+  - mainMaterial: {fileID: 2100000, guid: 0d9b0b7e90f6055428375087271648b3, type: 2}
+    secondaryMaterial: {fileID: 2100000, guid: 0d9b0b7e90f6055428375087271648b3, type: 2}
+  BridgeMaterial:
+  - mainMaterial: {fileID: 2100000, guid: 0d9b0b7e90f6055428375087271648b3, type: 2}
+    secondaryMaterial: {fileID: 2100000, guid: 0d9b0b7e90f6055428375087271648b3, type: 2}
+  ignoreTunnels: 1
+  ignoreBridges: 0
+  BridgeRampLength: 10
+  TransportEdging:
+  - prefab: {fileID: 1000013537703894, guid: a3a7eae6f26951f49b9faeefe7a3251d, type: 2}
+    proceduralScaling: 0
+    isGeotropic: 0
+    minScale: {x: 0, y: 0, z: 0}
+    maxScale: {x: 0, y: 0, z: 0}
+    onTerrain: 0100000002000000
+    metersGap: 60
+    metersFromEdge: 0.3
+    placementNoiseMeters: 0
+    metersWidthMargin: 0
+    chanceOfSpawn: 100
+    rotationType: 1
+    ignoreLeftSide: 0
+    ignoreRightSide: 0
+    ignoreTunnels: 0
+    ignoreBridges: 0
+    ignoreLinks: 0
+    ignoreHighways: 0
+  - prefab: {fileID: 1000013726181166, guid: a450cedbcc9294b35bd4a295b95119b1, type: 2}
+    proceduralScaling: 1
+    isGeotropic: 0
+    minScale: {x: 2, y: 2, z: 2}
+    maxScale: {x: 3, y: 3, z: 3}
+    onTerrain: 0100000002000000
+    metersGap: 90
+    metersFromEdge: 1
+    placementNoiseMeters: 0
+    metersWidthMargin: 0
+    chanceOfSpawn: 100
+    rotationType: 2
+    ignoreLeftSide: 0
+    ignoreRightSide: 0
+    ignoreTunnels: 0
+    ignoreBridges: 0
+    ignoreLinks: 0
+    ignoreHighways: 0

@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c814a94a29218440c94aba9bced95679, type: 3}
+  m_Name: Mantle_Style_Grass
+  m_EditorClassIdentifier: 
+  TopMaterial:
+  - mainMaterial: {fileID: 2100000, guid: 43e8e389395a745bab3d4d492485b883, type: 2}
+    secondaryMaterial: {fileID: 0}
+  topUvMethod: 1
+  SideMaterial:
+  - mainMaterial: {fileID: 2100000, guid: 43e8e389395a745bab3d4d492485b883, type: 2}
+    secondaryMaterial: {fileID: 0}
+  sideUvMethod: 1
+  minSideHeight: 0.55
+  maxSideHeight: 0.55
+  bypassSmallAreas: 0
+  minAreaToFillSqrMeters: 0
+  TerrainFill:
+  - prefab: {fileID: 117020, guid: dd83ecfd3244c4d8b8c347d5c3d4e72c, type: 2}
+    proceduralScaling: 1
+    isGeotropic: 0
+    minScale: {x: 1, y: 1, z: 1}
+    maxScale: {x: 1, y: 1, z: 1}
+    numberPerSquare100Meters: 5000
+    placementNoiseMeters: 0
+    rotationRandom: 1
+    placedInRows: 0
+    allowOverhang: 0
+  TerrainEdge:
+  - prefab: {fileID: 117020, guid: dd83ecfd3244c4d8b8c347d5c3d4e72c, type: 2}
+    proceduralScaling: 0
+    isGeotropic: 0
+    minScale: {x: 0, y: 0, z: 0}
+    maxScale: {x: 0, y: 0, z: 0}
+    onTerrain: 02000000
+    metersGap: 0
+    metersFromEdge: -0.4
+    placementNoiseMeters: 0
+    metersWidthMargin: 0
+    chanceOfSpawn: 100
+    rotationType: 2
+    ignoreLeftSide: 0
+    ignoreRightSide: 0

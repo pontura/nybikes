@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 351df23c30f7c094194385312c81bbe1, type: 3}
+  m_Name: Mantle_Style_Building
+  m_EditorClassIdentifier: 
+  TopMaterial:
+  - mainMaterial: {fileID: 2100000, guid: b9eb4cfb2b2e94dc2a6eef00893a8a9f, type: 2}
+    secondaryMaterial: {fileID: 0}
+  topUvMethod: 8
+  includeSides: 0
+  SideMaterial:
+  - mainMaterial: {fileID: 2100000, guid: 4e6e8187c73cd6b4daddbdfc6c3e0ff9, type: 2}
+    secondaryMaterial: {fileID: 0}
+  sideUvMethod: 1
+  minSideHeight: 3
+  maxSideHeight: 12
+  bypassSmallAreas: 1
+  minAreaToFillSqrMeters: 1100
+  TerrainFill:
+  - prefab: {fileID: 1000013503206732, guid: 8b1ff29791e903c4f909d15976b7129b, type: 2}
+    proceduralScaling: 0
+    isGeotropic: 0
+    minScale: {x: 0, y: 0, z: 0}
+    maxScale: {x: 0, y: 0, z: 0}
+    numberPerSquare100Meters: 0
+    placementNoiseMeters: 0
+    rotationRandom: 1
+    placedInRows: 0
+    allowOverhang: 0
+  - prefab: {fileID: 1000013007294176, guid: 5e5f067779dad4751ae91e0d049e7493, type: 2}
+    proceduralScaling: 0
+    isGeotropic: 0
+    minScale: {x: 1, y: 1, z: 1}
+    maxScale: {x: 1, y: 1, z: 1}
+    numberPerSquare100Meters: 0
+    placementNoiseMeters: 0
+    rotationRandom: 1
+    placedInRows: 0
+    allowOverhang: 0
+  TerrainEdge: []
+  ignoreRealBuildingHeights: 0
+  groundLevelHeight: 3
+  topLevelHeight: 3
+  GroundLevelCladding:
+  - prefab: {fileID: 1000011540618104, guid: 590530f9a512d412c895dcf555a40336, type: 2}
+    spawnChance: 20
+    limitRows: 1
+    maxRowsLimit: 1
+    metersGapAcross: 15
+    metersGapBetweenFloors: 0
+    metersWidthMargin: 1
+    metersBottomMargin: 0
+    metersTopMargin: 0
+    rotationRandom: 0
+  - prefab: {fileID: 1000012910311956, guid: 9061179a35f134117b2e35ab26fd9f5a, type: 2}
+    spawnChance: 30
+    limitRows: 1
+    maxRowsLimit: 1
+    metersGapAcross: 9
+    metersGapBetweenFloors: 0
+    metersWidthMargin: 5
+    metersBottomMargin: 0
+    metersTopMargin: 0
+    rotationRandom: 0
+  - prefab: {fileID: 191058, guid: bee7c1cfc5e6248e98a9968268bfe32a, type: 2}
+    spawnChance: 50
+    limitRows: 1
+    maxRowsLimit: 1
+    metersGapAcross: 10
+    metersGapBetweenFloors: 0
+    metersWidthMargin: 2
+    metersBottomMargin: 0
+    metersTopMargin: 0
+    rotationRandom: 0
+  MidSectionCladding: []
+  TopLevelCladding: []

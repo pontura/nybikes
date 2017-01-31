@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 397bf683e862b45b08346dfa44f5deb7
+timeCreated: 1472721804
+licenseType: Pro
+ShaderImporter:
+  defaultTextures:
+  - _BaseGrass: {fileID: 2800000, guid: 49666bacb77a04d8b8be3c678bd0836e, type: 3}
+  - _Normal: {fileID: 2800000, guid: 4062f257aa2524ca79718c06a3aa5a82, type: 3}
+  - _GrassTexture: {fileID: 2800000, guid: 1ffaa7097d91a456e9a9645a016b9614, type: 3}
+  - _Rocks: {fileID: 2800000, guid: 1d385e83caced462db5d426da16fae42, type: 3}
+  - _BaseGrass2: {fileID: 2800000, guid: 03c585902fe344178a9c857982ff073b, type: 3}
+  - _Rock2: {fileID: 2800000, guid: 1d385e83caced462db5d426da16fae42, type: 3}
+  - _Noise: {fileID: 2800000, guid: 28c7aad1372ff114b90d330f8a2dd938, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,7 @@
+default_fallback
+highway
+major_road
+minor_road
+ferry
+rail
+path

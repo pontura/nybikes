@@ -1,0 +1,81 @@
+Prototype v1.1.0 (06/12/2016)
+
+==============================================
+Environmental auto generation theme for Mantle
+© Mantle Technologies Limited, 2016 
+www.mantle.tech
+
+Author: Yvonne Jackson
+==============================================
+
+Thanks for downloading Mantle for Unity.
+Installation requires Unity 5.3.1 or Higher.
+
+Please direct any technical support requests to:
+support@mantle.tech
+
+
+Installation:
+=============
+1. Open new project in Unity
+2. In Assets Tab click Import Package and Select Custom Package 
+3. Open the Mantle folder in Project pane
+4. Run Demo scene for a preview (//Mantle/Content/MantleThemes/Prototype/Demo Scene_Prototype)
+
+
+Package Content:
+=========================
+Folder Structure:
+ -	Mantle Styles
+ -	Materials
+ -	Models
+ -	Prefabs
+ 	Theme
+	Datasource
+ 	Demo Scene
+
+------------
+
+Theme Content Elements:
+
+-	1 Mantle Theme
+-	1 Datasource
+-	1 Demo Scene
+-	31 Mantle Styles
+-	31 Style Materials
+-	47 Textures (11 Normals)
+-	5 Shaders
+-	46 Models
+-	44 Prefabs
+-	25 Prefab Materials
+
+
+
+
+=======
+
+
+Acknowledgements:
+=================
+
+Author Created Content:
+-----------------------
+
+Textures by Yvonne Jackson, Mantle Technologies Limited
+Building Materials by Dean Gifford, Mantle Technologies Limited
+Models by Yvonne Jackson, Mantle Technologies Limited
+
+
+3rd Party Data:
+---------------
+Vector Tile Map Data - MapZen (www.mapzen.com)
+
+Shaders:
+---------------------
+Created using ShaderForge from Unity Asset Store.
+
+============================================
+We hope you find this theme useful!
+We’re always happy to hear your feedback and keen to see images of your Mantle-generated environments, share them on the forums at: www.mantle.tech
+============================================
+Twitter: @MantleTech
