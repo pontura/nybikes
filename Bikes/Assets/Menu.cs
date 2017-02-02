@@ -7,17 +7,20 @@ public class Menu : MonoBehaviour {
     public GameObject section2;
     public GameObject section3;
     private Animation anim;
+    public GameObject closeButton;
 
     void Start () {
         anim = GetComponent<Animation>();
     }
     public void Open()
     {
-
+        closeButton.SetActive(true);
+        anim.Play("on");
     }
     public void Close()
     {
-
+        closeButton.SetActive(false);
+        anim.Play("off");
     }
 	public void Select(int id)
     {

@@ -25,6 +25,6 @@ public class MainCameraController : MonoBehaviour {
         Vector3 rot = transform.localEulerAngles;
         if(value<0.3f)
             rot.x = anglesMin - (0.3f-value)*100;
-      //  transform.localEulerAngles = rot;
+        transform.localEulerAngles = rot;
     }
 }
