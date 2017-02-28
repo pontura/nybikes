@@ -79,7 +79,16 @@ public class SliderTime : MonoBehaviour {
         totalPeople += (max * totalPeople);
         int tp = (int)(totalPeople) + (int)min;
         ui.SetTotalPeople(tp * 2);
-        timeField.text = "TUESDAY, NOV 20 2016, " + FloatToTime(secs) + ", NEW YORK CITY";
+
+		string hora = "";
+		if (secs < 43200)
+			hora = FloatToTime (secs) + " AM";
+		else {
+			if (secs > 46800)
+				secs -= 43200;			
+			hora = FloatToTime (secs) + " FM";
+		}
+		timeField.text = "Tuesday, March 21 2017, " + hora + ", NEW YORK CITY";
     }
     public string FloatToTime(int counter)
     {

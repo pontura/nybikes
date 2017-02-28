@@ -29,11 +29,11 @@ public class UI : MonoBehaviour {
         switch (bikesAnim.type)
         {
             case BikesAnimation.types.PEOPLE:
-                CyclingField.text = "MALE";
+                CyclingField.text = "MEN";
                 Events.ChangeType(BikesAnimation.types.MALE);
                 break;
             case BikesAnimation.types.MALE:
-                CyclingField.text = "FEMALE";
+				CyclingField.text = "WOMEN";
                 Events.ChangeType(BikesAnimation.types.FEMALE);
                 break;
             case BikesAnimation.types.FEMALE:
