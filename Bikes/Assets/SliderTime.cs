@@ -23,6 +23,7 @@ public class SliderTime : MonoBehaviour {
 
     void Start () {
         secs = 500;
+		Invoke("SwitchMode", 0.1f);
     }
 	public void SwitchMode()
     {
@@ -86,7 +87,7 @@ public class SliderTime : MonoBehaviour {
 		else {
 			if (secs > 46800)
 				secs -= 43200;			
-			hora = FloatToTime (secs) + " FM";
+			hora = FloatToTime (secs) + " PM";
 		}
 		timeField.text = "Tuesday, March 21 2017, " + hora + ", NEW YORK CITY";
     }
